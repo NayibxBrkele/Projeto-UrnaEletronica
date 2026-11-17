@@ -1,0 +1,9 @@
+AVISO SOBRE LICENÇA E DIREITOS AUTORAIS
+
+Este repositório é uma obra de pesquisa acadêmica, investigação (OSINT) e engenharia reversa. O conjunto de ficheiros aqui disponibilizado NÃO possui uma licença de código aberto (como MIT, GPL ou Apache).
+
+Os ficheiros e artefatos de lote originais (MS-DOS/C) presentes na base documental pertencem aos seus autores e detentores legais históricos. Eles estão arquivados neste repositório exclusivamente para fins de estudo de arquitetura, documentação histórica e segurança da informação, enquadrando-se no princípio de "Fair Use" (Uso Justo) acadêmico.
+
+A interface moderna desenvolvida em Python/Tkinter (pasta `interface-teorica/`) é de autoria do mantenedor do repositório, porém, não é distribuída com licença comercial, servindo apenas como ferramenta auxiliar de demonstração técnica.
+
+A ausência de um ficheiro "LICENSE" padrão significa que os direitos de autor prevalecem e os visitantes não têm permissão automática para copiar, modificar, distribuir ou usar este material para fins comerciais ou oficiais.

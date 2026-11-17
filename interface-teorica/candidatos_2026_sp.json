@@ -1,0 +1,579 @@
+{
+  "metadata": {
+    "election": "Eleições 2026",
+    "uf": "SP",
+    "source": "DivulgaCandContas/TRE-SP; listas públicas de candidatos com número de urna",
+    "scope": "Deputados: amostra de nomes/números, não lista completa. Governador e senador: listas completas do recorte de candidaturas aptas consultado. Presidente: candidatos registrados após julgamento dos registros.",
+    "photo_url": "Campo vazio para preenchimento manual com URL direta de imagem PNG/GIF; pode ser editado por candidato.",
+    "sources": [
+      "https://www.tre-sp.jus.br/eleicoes/eleicoes-2026/candidaturas",
+      "https://www.tre-sp.jus.br/comunicacao/noticias/2026/Setembro/eleicoes-2026-ordem-de-votacao-esta-na-colinha-eleitoral-veja-como-baixar",
+      "https://divulgacandcontas.tse.jus.br/"
+    ]
+  },
+  "profiles": {
+    "municipal_2000": [
+      {
+        "title": "VEREADOR",
+        "digits": 5,
+        "candidates": {
+          "91001": {
+            "name": "JOSE DA SILVA",
+            "party": "PART-A",
+            "initials": "JD",
+            "photo_url": "",
+            "code": "91001"
+          },
+          "92002": {
+            "name": "MARIA OLIVEIRA",
+            "party": "PART-B",
+            "initials": "MO",
+            "photo_url": "",
+            "code": "92002"
+          }
+        }
+      },
+      {
+        "title": "PREFEITO",
+        "digits": 2,
+        "candidates": {
+          "91": {
+            "name": "CARLOS SANTOS",
+            "party": "PART-A",
+            "initials": "CS",
+            "photo_url": "",
+            "vice": "PAULO LIMA",
+            "code": "91"
+          },
+          "92": {
+            "name": "ANA COSTA",
+            "party": "PART-B",
+            "initials": "AC",
+            "photo_url": "",
+            "vice": "LUCIA MORAES",
+            "code": "92"
+          }
+        }
+      }
+    ],
+    "eleicoes_2026_sp": [
+      {
+        "title": "DEPUTADO FEDERAL",
+        "digits": 4,
+        "candidates": {
+          "3030": {
+            "name": "ADRIANA VENTURA",
+            "party": "NOVO",
+            "initials": "AV",
+            "photo_url": "",
+            "code": "3030"
+          },
+          "1358": {
+            "name": "ALENCAR SANTANA",
+            "party": "PT",
+            "initials": "AS",
+            "photo_url": "",
+            "code": "1358"
+          },
+          "1322": {
+            "name": "ARLINDO CHINAGLIA",
+            "party": "PT",
+            "initials": "AC",
+            "photo_url": "",
+            "code": "1322"
+          },
+          "1515": {
+            "name": "BALEIA ROSSI",
+            "party": "MDB",
+            "initials": "BR",
+            "photo_url": "",
+            "code": "1515"
+          },
+          "2200": {
+            "name": "CAPITAO AUGUSTO",
+            "party": "PL",
+            "initials": "CA",
+            "photo_url": "",
+            "code": "2200"
+          },
+          "5585": {
+            "name": "CARLOS SAMPAIO",
+            "party": "PSD",
+            "initials": "CS",
+            "photo_url": "",
+            "code": "5585"
+          },
+          "1370": {
+            "name": "CARLOS ZARATTINI",
+            "party": "PT",
+            "initials": "CZ",
+            "photo_url": "",
+            "code": "1370"
+          },
+          "1000": {
+            "name": "CELSO RUSSOMANNO",
+            "party": "REPUBLICANOS",
+            "initials": "CR",
+            "photo_url": "",
+            "code": "1000"
+          },
+          "1100": {
+            "name": "CORONEL TELHADA",
+            "party": "PP",
+            "initials": "CT",
+            "photo_url": "",
+            "code": "1100"
+          },
+          "2011": {
+            "name": "DELEGADO BRUNO LIMA",
+            "party": "PODE",
+            "initials": "DB",
+            "photo_url": "",
+            "code": "2011"
+          },
+          "2000": {
+            "name": "DELEGADO PALUMBO",
+            "party": "PODE",
+            "initials": "DP",
+            "photo_url": "",
+            "code": "2000"
+          }
+        }
+      },
+      {
+        "title": "DEPUTADO ESTADUAL",
+        "digits": 5,
+        "candidates": {
+          "50500": {
+            "name": "DEBORA CAMILO",
+            "party": "PSOL",
+            "initials": "DC",
+            "photo_url": "",
+            "code": "50500"
+          },
+          "50789": {
+            "name": "CARLOS GIANNAZI",
+            "party": "PSOL",
+            "initials": "CG",
+            "photo_url": "",
+            "code": "50789"
+          },
+          "40678": {
+            "name": "DE PAULA",
+            "party": "PSB",
+            "initials": "DP",
+            "photo_url": "",
+            "code": "40678"
+          },
+          "11222": {
+            "name": "CANTOR ALISSON SANTOS",
+            "party": "PP",
+            "initials": "CA",
+            "photo_url": "",
+            "code": "11222"
+          },
+          "22077": {
+            "name": "DANILO MORGADO",
+            "party": "PL",
+            "initials": "DM",
+            "photo_url": "",
+            "code": "22077"
+          },
+          "11111": {
+            "name": "DANILO JOAN",
+            "party": "PP",
+            "initials": "DJ",
+            "photo_url": "",
+            "code": "11111"
+          },
+          "44555": {
+            "name": "DOUGLAS GARCIA",
+            "party": "UNIAO",
+            "initials": "DG",
+            "photo_url": "",
+            "code": "44555"
+          },
+          "11911": {
+            "name": "SARGENTO CASTRO",
+            "party": "PP",
+            "initials": "SC",
+            "photo_url": "",
+            "code": "11911"
+          },
+          "50700": {
+            "name": "SOFIA FAVERO",
+            "party": "PSOL",
+            "initials": "SF",
+            "photo_url": "",
+            "code": "50700"
+          },
+          "15017": {
+            "name": "CAIO DO VOVO ANESIO",
+            "party": "MDB",
+            "initials": "CD",
+            "photo_url": "",
+            "code": "15017"
+          },
+          "44250": {
+            "name": "ALEXANDRE LEITE",
+            "party": "UNIAO",
+            "initials": "AL",
+            "photo_url": "",
+            "code": "44250"
+          },
+          "22192": {
+            "name": "DR ISAEL",
+            "party": "PL",
+            "initials": "DI",
+            "photo_url": "",
+            "code": "22192"
+          }
+        }
+      },
+      {
+        "title": "SENADOR - 1ª VAGA",
+        "digits": 3,
+        "candidates": {
+          "222": {
+            "name": "ANDRE DO PRADO",
+            "party": "PL",
+            "initials": "AD",
+            "photo_url": "",
+            "code": "222"
+          },
+          "161": {
+            "name": "DRA ELIANA FERREIRA",
+            "party": "PSTU",
+            "initials": "DE",
+            "photo_url": "",
+            "code": "161"
+          },
+          "200": {
+            "name": "GERALDO RUFINO",
+            "party": "PODE",
+            "initials": "GR",
+            "photo_url": "",
+            "code": "200"
+          },
+          "111": {
+            "name": "GUILHERME DERRITE",
+            "party": "PP",
+            "initials": "GD",
+            "photo_url": "",
+            "code": "111"
+          },
+          "144": {
+            "name": "GUTO SCHIAVETTO",
+            "party": "MISSAO",
+            "initials": "GS",
+            "photo_url": "",
+            "code": "144"
+          },
+          "808": {
+            "name": "MAIRA DE SOUZA",
+            "party": "UP",
+            "initials": "MD",
+            "photo_url": "",
+            "code": "808"
+          },
+          "800": {
+            "name": "MARCIO ALVES",
+            "party": "UP",
+            "initials": "MA",
+            "photo_url": "",
+            "code": "800"
+          },
+          "180": {
+            "name": "MARINA SILVA",
+            "party": "REDE",
+            "initials": "MS",
+            "photo_url": "",
+            "code": "180"
+          },
+          "211": {
+            "name": "PETTER MAAHS",
+            "party": "PCB",
+            "initials": "PM",
+            "photo_url": "",
+            "code": "211"
+          },
+          "300": {
+            "name": "SALLES",
+            "party": "NOVO",
+            "initials": "S",
+            "photo_url": "",
+            "code": "300"
+          },
+          "400": {
+            "name": "SIMONE TEBET",
+            "party": "PSB",
+            "initials": "ST",
+            "photo_url": "",
+            "code": "400"
+          },
+          "232": {
+            "name": "SONINHA FRANCINE",
+            "party": "CIDADANIA",
+            "initials": "SF",
+            "photo_url": "",
+            "code": "232"
+          },
+          "160": {
+            "name": "WELLER GONCALVES",
+            "party": "PSTU",
+            "initials": "WG",
+            "photo_url": "",
+            "code": "160"
+          },
+          "360": {
+            "name": "WILLIAM TEIXEIRA",
+            "party": "AGIR",
+            "initials": "WT",
+            "photo_url": "",
+            "code": "360"
+          }
+        }
+      },
+      {
+        "title": "SENADOR - 2ª VAGA",
+        "digits": 3,
+        "candidates": {
+          "222": {
+            "name": "ANDRE DO PRADO",
+            "party": "PL",
+            "initials": "AD",
+            "photo_url": "",
+            "code": "222"
+          },
+          "161": {
+            "name": "DRA ELIANA FERREIRA",
+            "party": "PSTU",
+            "initials": "DE",
+            "photo_url": "",
+            "code": "161"
+          },
+          "200": {
+            "name": "GERALDO RUFINO",
+            "party": "PODE",
+            "initials": "GR",
+            "photo_url": "",
+            "code": "200"
+          },
+          "111": {
+            "name": "GUILHERME DERRITE",
+            "party": "PP",
+            "initials": "GD",
+            "photo_url": "",
+            "code": "111"
+          },
+          "144": {
+            "name": "GUTO SCHIAVETTO",
+            "party": "MISSAO",
+            "initials": "GS",
+            "photo_url": "",
+            "code": "144"
+          },
+          "808": {
+            "name": "MAIRA DE SOUZA",
+            "party": "UP",
+            "initials": "MD",
+            "photo_url": "",
+            "code": "808"
+          },
+          "800": {
+            "name": "MARCIO ALVES",
+            "party": "UP",
+            "initials": "MA",
+            "photo_url": "",
+            "code": "800"
+          },
+          "180": {
+            "name": "MARINA SILVA",
+            "party": "REDE",
+            "initials": "MS",
+            "photo_url": "",
+            "code": "180"
+          },
+          "211": {
+            "name": "PETTER MAAHS",
+            "party": "PCB",
+            "initials": "PM",
+            "photo_url": "",
+            "code": "211"
+          },
+          "300": {
+            "name": "SALLES",
+            "party": "NOVO",
+            "initials": "S",
+            "photo_url": "",
+            "code": "300"
+          },
+          "400": {
+            "name": "SIMONE TEBET",
+            "party": "PSB",
+            "initials": "ST",
+            "photo_url": "",
+            "code": "400"
+          },
+          "232": {
+            "name": "SONINHA FRANCINE",
+            "party": "CIDADANIA",
+            "initials": "SF",
+            "photo_url": "",
+            "code": "232"
+          },
+          "160": {
+            "name": "WELLER GONCALVES",
+            "party": "PSTU",
+            "initials": "WG",
+            "photo_url": "",
+            "code": "160"
+          },
+          "360": {
+            "name": "WILLIAM TEIXEIRA",
+            "party": "AGIR",
+            "initials": "WT",
+            "photo_url": "",
+            "code": "360"
+          }
+        }
+      },
+      {
+        "title": "GOVERNADOR",
+        "digits": 2,
+        "candidates": {
+          "10": {
+            "name": "TARCISIO",
+            "party": "REPUBLICANOS",
+            "initials": "T",
+            "photo_url": "",
+            "vice": "FELICIO RAMUTH",
+            "code": "10"
+          },
+          "13": {
+            "name": "FERNANDO HADDAD",
+            "party": "PT",
+            "initials": "FH",
+            "photo_url": "",
+            "vice": "MARCIO FRANCA",
+            "code": "13"
+          },
+          "16": {
+            "name": "VERA LUCIA",
+            "party": "PSTU",
+            "initials": "VL",
+            "photo_url": "",
+            "vice": "FABIO BOSCO",
+            "code": "16"
+          },
+          "21": {
+            "name": "CARLOS MACHADO",
+            "party": "PCB",
+            "initials": "CM",
+            "photo_url": "",
+            "vice": "FELIPE QUEIROZ",
+            "code": "21"
+          },
+          "80": {
+            "name": "VIVIAN MENDES",
+            "party": "UP",
+            "initials": "VM",
+            "photo_url": "",
+            "vice": "CRIS DAMASIO",
+            "code": "80"
+          }
+        }
+      },
+      {
+        "title": "PRESIDENTE",
+        "digits": 2,
+        "candidates": {
+          "13": {
+            "name": "LULA",
+            "party": "PT",
+            "initials": "L",
+            "photo_url": "",
+            "code": "13"
+          },
+          "14": {
+            "name": "RENAN SANTOS",
+            "party": "MISSAO",
+            "initials": "RS",
+            "photo_url": "",
+            "code": "14"
+          },
+          "16": {
+            "name": "HERTZ DIAS",
+            "party": "PSTU",
+            "initials": "HD",
+            "photo_url": "",
+            "code": "16"
+          },
+          "21": {
+            "name": "EDMILSON COSTA",
+            "party": "PCB",
+            "initials": "EC",
+            "photo_url": "",
+            "code": "21"
+          },
+          "22": {
+            "name": "FLAVIO BOLSONARO",
+            "party": "PL",
+            "initials": "FB",
+            "photo_url": "",
+            "code": "22"
+          },
+          "27": {
+            "name": "CLARIANA BARAO",
+            "party": "DC",
+            "initials": "CB",
+            "photo_url": "",
+            "code": "27"
+          },
+          "29": {
+            "name": "RUI COSTA PIMENTA",
+            "party": "PCO",
+            "initials": "RC",
+            "photo_url": "",
+            "code": "29"
+          },
+          "30": {
+            "name": "ROMEO ZEMA",
+            "party": "NOVO",
+            "initials": "RZ",
+            "photo_url": "",
+            "code": "30"
+          },
+          "35": {
+            "name": "VETERINARIO WILSON GRASSI",
+            "party": "DEMOCRATA",
+            "initials": "VW",
+            "photo_url": "",
+            "code": "35"
+          },
+          "55": {
+            "name": "RONALDO CAIADO",
+            "party": "PSD",
+            "initials": "RC",
+            "photo_url": "",
+            "code": "55"
+          },
+          "70": {
+            "name": "ESCRITOR AUGUSTO CURY",
+            "party": "AVANTE",
+            "initials": "EA",
+            "photo_url": "",
+            "code": "70"
+          },
+          "80": {
+            "name": "SAMARA",
+            "party": "UP",
+            "initials": "S",
+            "photo_url": "",
+            "code": "80"
+          }
+        }
+      }
+    ]
+  }
+}

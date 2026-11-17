@@ -1,0 +1,63 @@
+UE2000 — INTERFACE GRÁFICA DESKTOP | ELEIÇÕES 2026 — SP
+======================================================
+
+EXECUÇÃO
+--------
+1. Abra o terminal na pasta `interface-teorica`.
+2. Execute: python3 urna_gui.py
+   ou: ./iniciar_interface.sh
+
+Dependências: Python 3 + Tkinter. No Debian/Kali, se necessário:
+  sudo apt install python3-tk
+
+PERFIS
+------
+- Municipal 2000: perfil didático preservado, com nomes/códigos fictícios.
+- Eleições 2026 — São Paulo: cargos na sequência de votação de 2026:
+  deputado federal (4), deputado estadual (5), senador 1ª vaga (3),
+  senador 2ª vaga (3), governador (2), presidente (2).
+
+BASE DE CANDIDATOS E FOTOS
+--------------------------
+Os dados estão em candidatos_2026_sp.json. Cada candidato possui:
+  código (chave do candidato), name, party, initials e photo_url.
+
+Para inserir uma fotografia, abra candidatos_2026_sp.json e preencha photo_url
+com uma URL direta de imagem PNG ou GIF. Exemplo:
+  "photo_url": "https://seusite.exemplo/foto-candidato.png"
+
+A imagem é carregada ao exibir o candidato. Se a URL estiver vazia, inacessível
+ou em formato não suportado pelo Tkinter, o programa mostra as iniciais.
+JPEG pode exigir Pillow instalado e não é garantido nesta versão.
+
+ESCOPO DOS DADOS
+----------------
+- Governador e senador: relação de candidaturas aptas do recorte consultado.
+- Deputado federal e estadual: amostra de candidaturas reais com números
+  identificados; NÃO é a lista completa de candidatos desses cargos.
+- Presidente: nomes/números das candidaturas registradas após julgamento
+  dos registros na eleição de 2026.
+- Confira a situação e os dados no portal oficial antes de ampliar a base.
+
+Fontes de referência:
+TRE-SP — Candidaturas 2026:
+https://www.tre-sp.jus.br/eleicoes/eleicoes-2026/candidaturas
+TRE-SP — ordem dos cargos e quantidade de dígitos:
+https://www.tre-sp.jus.br/comunicacao/noticias/2026/Setembro/eleicoes-2026-ordem-de-votacao-esta-na-colinha-eleitoral-veja-como-baixar
+DivulgaCandContas/TSE:
+https://divulgacandcontas.tse.jus.br/
+
+LIMITES IMPORTANTES
+-------------------
+- Esta é uma interface contemporânea em Python/Tkinter, feita para simulação.
+  Não é software oficial do TSE e não representa a interface histórica da UE2000.
+- O perfil 2026 é uma demonstração com candidatos reais e dados públicos; não
+  reproduz a apuração, o sistema oficial nem a configuração de uma urna real.
+- A segunda vaga do Senado impede repetir o mesmo número escolhido na primeira.
+- O front-end não executa nem modifica os programas C simulados, não acessa
+  hardware e não produz Boletim de Urna oficial.
+- O perfil Municipal 2000 é apenas didático; os nomes nele continuam fictícios.
+
+TESTE
+-----
+  xvfb-run -a python3 urna_gui.py --self-test

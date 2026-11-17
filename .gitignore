@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Binários/objetos gerados pela compilação demonstrativa
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# Estado e logs locais
+VIRTUAL_HW.BIN
+*.log
+*.tmp
+*.bak
+
+# Ambiente local e arquivos do sistema/editor
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

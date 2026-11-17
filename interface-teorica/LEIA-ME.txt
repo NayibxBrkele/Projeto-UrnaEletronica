@@ -1,0 +1,17 @@
+PACOTE DE SIMULAÇÃO DOCUMENTAL UE2000 + INTERFACE MODERNA
+
+Este pacote contém duas camadas que não devem ser confundidas:
+1) ambiente_pronto/: árvore documental de reconstrução, com módulos C/DOS e
+   arquivos de lote ilustrativos, baseada nas evidências e inferências reunidas.
+2) urna_gui.py + candidatos_2026_sp.json: interface moderna desktop para
+   demonstração, com perfil de candidatos das Eleições 2026 em São Paulo.
+
+A interface Python é uma ferramenta contemporânea de pesquisa/demonstração.
+Python NÃO fazia parte da urna UE2000 e não deve ser entendido como componente
+histórico do equipamento. Para a base sem interface e sem Python, consulte o
+arquivo separado Base_Documental_UE2000_sem_interface.zip.
+
+Nenhum arquivo deste pacote deve ser tratado como firmware oficial, imagem
+forense de uma urna efetivamente utilizada, código-fonte oficial do TSE ou
+prova de execução em equipamento eleitoral. Consulte LEIA-ME-GUI.txt para
+instruções, fontes e limites da base de candidatos.

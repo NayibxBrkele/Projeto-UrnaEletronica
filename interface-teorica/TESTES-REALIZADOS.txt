@@ -1,0 +1,14 @@
+TESTES REALIZADOS — revisão Eleições 2026 SP
+
+1. python3 -m py_compile urna_gui.py
+   Resultado: OK.
+
+2. xvfb-run -a python3 urna_gui.py --self-test
+   Resultado: GUI SELF-TEST: OK — perfis municipal e geral, branco e correção.
+
+Cobertura: fluxo nominal para os seis cargos do perfil 2026; teste de branco e
+correção no perfil municipal; verificação do estado final da sessão.
+
+Limites: teste funcional automatizado em ambiente virtual X; não valida
+autenticidade eleitoral, completude da lista de candidatos, fotografias remotas,
+hardware ou compatibilidade com urna real.
